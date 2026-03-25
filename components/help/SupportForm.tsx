@@ -179,7 +179,7 @@ export default function SupportForm() {
             <ul className="space-y-2 text-slate-300">
               <li className="flex items-start gap-2">
                 <span className="text-green-400 mt-1">•</span>
-                <span>You'll receive an email confirmation shortly</span>
+                <span>You&apos;ll receive an email confirmation shortly</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-green-400 mt-1">•</span>

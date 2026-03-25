@@ -390,7 +390,7 @@ export default function TransactionGuidance() {
           <div>
             <h4 className="font-semibold text-white mb-2">Emergency: Funds at Risk</h4>
             <p className="text-slate-300 mb-3">
-              If you believe your funds are at immediate risk or you've encountered a critical security issue:
+              If you believe your funds are at immediate risk or you&apos;ve encountered a critical security issue:
             </p>
             <div className="flex flex-wrap gap-3">
               <Button variant="secondary" className="border-red-500/40 text-red-400 hover:bg-red-500/10">
