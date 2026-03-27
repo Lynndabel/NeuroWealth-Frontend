@@ -38,6 +38,7 @@ export function AuditTrail() {
   const eventTypeLabels: Record<AuditEvent["eventType"], string> = {
     login: "Login",
     logout: "Logout",
+    signup: "Sign Up",
     profile_update: "Profile Updated",
     password_change: "Password Changed",
     settings_change: "Settings Changed",
@@ -48,6 +49,7 @@ export function AuditTrail() {
   const eventTypeColors: Record<AuditEvent["eventType"], string> = {
     login: "bg-green-500/10 text-green-400 border-green-500/20",
     logout: "bg-slate-500/10 text-slate-400 border-slate-500/20",
+    signup: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
     profile_update: "bg-blue-500/10 text-blue-400 border-blue-500/20",
     password_change: "bg-orange-500/10 text-orange-400 border-orange-500/20",
     settings_change: "bg-purple-500/10 text-purple-400 border-purple-500/20",
@@ -87,6 +89,7 @@ export function AuditTrail() {
             <option value="all">All Events</option>
             <option value="login">Login</option>
             <option value="logout">Logout</option>
+            <option value="signup">Sign Up</option>
             <option value="profile_update">Profile Updated</option>
             <option value="password_change">Password Changed</option>
             <option value="settings_change">Settings Changed</option>

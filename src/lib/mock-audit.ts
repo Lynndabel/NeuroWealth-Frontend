@@ -2,7 +2,7 @@
 
 export interface AuditEvent {
     id: string;
-    eventType: "login" | "logout" | "profile_update" | "password_change" | "settings_change" | "transaction" | "export";
+    eventType: "login" | "logout" | "signup" | "profile_update" | "password_change" | "settings_change" | "transaction" | "export";
     actor: string;
     timestamp: Date;
     metadata: Record<string, unknown>;

@@ -89,7 +89,7 @@ export default function SignInPage() {
               disabled={isLoading || isSuccess}
               required
             />
-            <p className="signin-hint">Hint: Use "password123" for mock login</p>
+            <p className="signin-hint">Hint: Use &quot;password123&quot; for mock login</p>
           </div>
 
           {/* Error Banner */}
